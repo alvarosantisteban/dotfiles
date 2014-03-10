@@ -1,0 +1,8 @@
+# Language settings for git gui and gitk.
+export LANG="en_US.UTF-8"
+
+# Indicate modified files in Git
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+# Colorized shell prompt with Git branch
+export PS1='\[\033[01;32m\]\u@\h\[\033[01;34m\] \w\[\033[01;33m\]$(__git_ps1)\[\033[01;34m\] \$\[\033[00m\] '

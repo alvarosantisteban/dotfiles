@@ -1,0 +1,2 @@
+# Local shortcuts
+alias dev="cd $HOME/Development"

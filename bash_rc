@@ -1,0 +1,14 @@
+# Load aliases
+[[ -s "$HOME/.aliases" ]] && source "$HOME/.aliases"
+
+# Load local aliases
+[[ -s "$HOME/.aliases.local" ]] && source "$HOME/.aliases.local"
+
+# Load exports
+[[ -s "$HOME/.exports" ]] && source "$HOME/.exports"
+
+# Load bash-completion for Git
+[[ -s "/opt/local/share/bash-completion/completions/git" ]] && source "/opt/local/share/bash-completion/completions/git"
+
+# Load Git prompt
+[[ -s "/opt/local/share/git-core/git-prompt.sh" ]] && source "/opt/local/share/git-core/git-prompt.sh"

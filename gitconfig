@@ -1,0 +1,14 @@
+[user]
+	name = Alvaro Santisteban
+	email = santisteban@cosmocode.de
+[core]
+	excludesfile = ~/.gitignore
+[color]
+	ui = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	branch = auto
+[alias]
+	st = status
+	ci = commit
