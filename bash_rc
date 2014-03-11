@@ -7,6 +7,9 @@
 # Load exports
 [[ -s "$HOME/.exports" ]] && source "$HOME/.exports"
 
+# Load paths
+[[ -s "$HOME/.paths" ]] && source "$HOME/.paths"
+
 # Load bash-completion for Git
 [[ -s "/opt/local/share/bash-completion/completions/git" ]] && source "/opt/local/share/bash-completion/completions/git"
 

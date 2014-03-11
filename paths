@@ -1,0 +1,2 @@
+# Append tools path to PATH
+PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
