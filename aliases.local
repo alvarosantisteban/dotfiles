@@ -1,3 +1,4 @@
 # Local shortcuts
 alias dev="cd $HOME/Development"
+alias pidcat="python $HOME/scripts/pidcat/pidcat.py"
 alias subl="open /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
